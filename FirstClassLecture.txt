@@ -1,0 +1,46 @@
+to show data in php we use 
+#]SYNTAX
+	e.g echo "Hello";
+
+	Php syntex to code 
+	<?php
+
+	// code
+
+	?>
+	Upper code is latest 
+
+	<?php --> this syntax use to code just php code in single file.
+
+	<?
+	?>
+
+	This is The old syntax to write Php Code.
+
+
+#]VARIABLE
+
+	In Php Variable automitacly understand datatype of variable by assigning value
+	..To get variable datatype we write [ var_dump($var) ]
+
+#]FUNCTIONS
+	..Magic Function = print_r($var);
+	..exit() --> THis will work as break in php code & 
+	  this will not execute which is written after this exit function
+	
+
+#]METHODS
+	$_Post
+	$_Get
+	$_Request
+	$_Global
+	$_ENV
+	$_Session
+	$_Explode() --> Same as split function
+	$_Implode(); --> opposite of split
+	$Compact();
+	$Extract(); --> e.g $arr = array('name' => 'Ali', 'Age' => 22) [It is associative array]
+			$extract($arr);
+			It will make variable of column name like below;
+			$name = 'Ali';
+			$age = 22;
